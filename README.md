@@ -5,8 +5,8 @@ A collection of basic automation scripts for practicing:
 🔹 Browser actions (navigation, windows, alerts)
 🔹 TestNG annotations (@Test, @BeforeSuite)
 
-Key Scripts
-Google search box interaction (className, sendKeys())
-Multi-tab handling 
-Link clicks (linkText, partialLinkText)
-Page navigation
+Key Scripts:
+Google search box interaction (className, sendKeys()),
+Multi-tab handling,
+Link clicks (linkText, partialLinkText),
+Page navigation.
