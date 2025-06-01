@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import javax.swing.*;
+import java.util.List;
+
 public class Locators extends DriverSetup{
 
 
@@ -17,21 +20,21 @@ public class Locators extends DriverSetup{
         //searchArea = driver.findElement(By.tagName("textarea"));
         //searchArea = driver.findElement(By.className("gLFyf"));
 
-        searchArea = driver.findElement(By.className("gLFyf"));
+       // searchArea = driver.findElement(By.className("gLFyf"));
+
+      //  searchArea = driver.findElement(By.cssSelector("textarea[class ='gLFyf']"));
+        searchArea = driver.findElement(By.xpath("//textarea[@class = 'gLFyf']"));
 
         searchArea.sendKeys("Bangladesh");
         Thread.sleep(3000);
         searchArea.clear();
-        driver.manage().window().maximize();
-        Thread.sleep(3000);
 
-        driver.findElement(By.partialLinkText("কাজ করে")).click();
-        Thread.sleep(3000);
+        List<WebElement> children = driver.findElements(By.cssSelector("div[class = 'KxwPGc AghGtd']>a"));
 
-        driver.navigate().back();
+        for (WebElement child:children){
+            System.out.println(child.getText());
+        }
 
-        driver.findElement(By.linkText("Gmail")).click();
-        Thread.sleep(3000);
 
 
     }
