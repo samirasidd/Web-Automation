@@ -30,7 +30,7 @@ Practice core automation concepts through 20+ targeted exercises:
 ## Concepts Covered
  
 - `className`, `sendKeys()`
-  - Window handles, tab switching |  
+- `Window handles`, `tab switching`
 - `isSelected()`, `click()` 
 
 ## 🛠️ Setup  
