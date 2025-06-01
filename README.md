@@ -27,13 +27,11 @@ Practice core automation concepts through 20+ targeted exercises:
 - Annotations (`@BeforeSuite`, `@Test`, `@DataProvider`)  
 - Parallel Execution (`@Parameters`, `testng.xml`)  
 
-## 📂 Key Scripts  
-
-| File | Concepts Covered |  
-|------|------------------|  
-| `className`, `sendKeys()`, implicit waits |  
-|  Window handles, tab switching |  
-|  `isSelected()`, `click()` |  
+## Concepts Covered
+ 
+- `className`, `sendKeys()`
+  - Window handles, tab switching |  
+- `isSelected()`, `click()` 
 
 ## 🛠️ Setup  
 1. Clone repo:  
