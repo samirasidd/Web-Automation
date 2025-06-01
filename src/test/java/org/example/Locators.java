@@ -3,8 +3,6 @@ package org.example;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
-import javax.swing.*;
 import java.util.List;
 
 public class Locators extends DriverSetup{
